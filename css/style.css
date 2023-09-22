@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -99,4 +101,45 @@ width: 30%;
     background: none;
     color: white;
     cursor:pointer ;
+}
+.sea-btn{
+    padding: 5px 20px ;
+    margin:8px 0px ;
+    font-size: 20px;
+    background: none;
+    color: white;
+    cursor:pointer ;
+    
+}
+.second-se{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.section-heading{
+      font-size: 50px;
+      font-family: 'Rubik', sans-serif;
+color: black;
+}
+
+.section-para{
+    margin: 15px 0;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+}
+.para-1{
+    padding: 0 55px;
+    /* margin:0 50px; */
+}
+.left-sec{
+    flex-direction: row-reverse;
+}
+.para-img{
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid black;
 }
